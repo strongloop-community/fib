@@ -1,4 +1,4 @@
-//app.get('/fib/:num', fib.getFib );
+//app.get('/fibCache/:num', fibCache.getFib );
 
 var cache = new Array();
 
