@@ -2,7 +2,7 @@
 
 function fib(n) {
  if ( n < 2 ) { return 1; }
- else { return fib(n-2) + fib(n-1);}
+ else { return fib(n-2) + fib(n-1);}	
 }//end fib
 
 exports.getFib = function(req, res) {
@@ -14,4 +14,3 @@ exports.getFib = function(req, res) {
  console.timeEnd("fib");
  res.jsonp( result );
 };
-
